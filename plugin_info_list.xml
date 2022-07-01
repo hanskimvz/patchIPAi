@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin_list>
+<plugin_info name="VCAedge-AI">
+  <name>VCAedge-AI</name>
+  <version>1.1.61</version>
+  <revision>g14f11da2</revision>
+  <status>running</status>
+  <supportlog>yes</supportlog>
+  <logfilepath>/plugin/vca/vca.logfile.tar.gz</logfilepath>
+  <supportconfbackup>yes</supportconfbackup>
+  <conffilepath>/plugin/vca/vca.configuration.dat</conffilepath>
+  <web>
+    <browser>none</browser>
+    <url/>
+    <linkpath/>
+    <port>8080</port>
+    <basefwmenu>
+<showingmenu>yes</showingmenu>
+<mainmenuname>VCA</mainmenuname>
+<showingloc>7</showingloc>
+<subitem>
+<submenuname>enable_vca</submenuname>
+<cgi>/cgi-bin/admin/vca/enable/setup_vca_enable.cgi</cgi>
+<submenuname>rules</submenuname>
+<cgi>/cgi-bin/admin/vca/rules/setup_vca_rules.cgi</cgi>
+<submenuname>counters</submenuname>
+<cgi>/cgi-bin/admin/vca/counters/setup_vca_counters.cgi</cgi>
+<submenuname>bia</submenuname>
+<cgi>/cgi-bin/admin/vca/bia/setup_vca_bia.cgi</cgi>
+<submenuname>tcp</submenuname>
+<cgi>/cgi-bin/admin/vca/tcpnoti/setup_vca_tcpnoti.cgi</cgi>
+<submenuname>http</submenuname>
+<cgi>/cgi-bin/admin/vca/httpnoti/setup_vca_httpnoti.cgi</cgi>
+<submenuname>tamper</submenuname>
+<cgi>/cgi-bin/admin/vca/tamper/setup_vca_tamper.cgi</cgi>
+<submenuname>advanced</submenuname>
+<cgi>/cgi-bin/admin/vca/advanced/setup_vca_advanced.cgi</cgi>
+<submenuname>license</submenuname>
+<cgi>/cgi-bin/admin/vca/license/setup_vca_license.cgi</cgi>
+</subitem>
+</basefwmenu>
+</web>
+<userevent>
+<eventname>VCA</eventname>
+<eventid>CA1234</eventid>
+</userevent>
+<script>
+    <start>/mnt/plugin/vca/script/startapp.sh</start>
+    <uninstall>/tmp/plugin/vca/uninstall.sh</uninstall>
+    <logbackup>/mnt/plugin/vca/script/logbackup.sh</logbackup>
+    <factoryreset>/mnt/plugin/vca/script/factory_reset.sh</factoryreset>
+    <userevent>/mnt/plugin/vca/bin/userEvtRegister</userevent>
+    <confbackup>/mnt/plugin/vca/script/confbackup.sh</confbackup>
+</script>
+<description>
+  Video contents analytics for the edge device (beta)
+</description>
+<dependency>
+  <basefirmver>2020.02.12</basefirmver>
+  <plugin>none</plugin>
+</dependency>
+</plugin_info>
+</plugin_list>

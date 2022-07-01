@@ -1,0 +1,14 @@
+copy ..\mnt\plugin\crpt\*.cgi     .\src\
+copy ..\mnt\plugin\crpt\*.php     .\src\
+copy ..\mnt\plugin\crpt\*.ini     .\src\
+copy ..\mnt\plugin\crpt\*.sh     .\src\
+copy ..\mnt\plugin\crpt\*.js     .\src\
+
+copy ..\mnt\plugin\vca\web\pluginlang.json .\src\
+copy ..\root\web\js\lang.json .\src\
+copy ..\root\web\js\lang.js .\src\
+copy ..\root\web\cgi-bin\admin\setup_system_language.js .\src\
+
+
+
+pause

@@ -1,0 +1,855 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+
+<Root>
+
+	<Module File="MultiLangResMgr.dll" ClassName="IMultiLangResMgr" ClassVersion="10000">
+
+		<LangRes TargetFile="VCAAlarmLogBlock.dll" Version="10000" Locale="Chinese">
+
+			<SingleStringList>
+
+				<SingleString Key="Object Presence" Value="目标存在" />
+
+				<SingleString Key="Object Entered" Value="目标已进入" />
+
+				<SingleString Key="Object Exited" Value="目标已离开" />
+
+				<SingleString Key="Object Appeared" Value="目标已出现" />
+
+				<SingleString Key="Object Disappeared" Value="目标已消失" />
+
+				<SingleString Key="Object Stopped" Value="目标已停止" />
+
+				<SingleString Key="Object Dwelling" Value="目标正在徘徊" />
+
+				<SingleString Key="Directional Violation" Value="违反方向规则" />
+
+				<SingleString Key="Speed Violation" Value="违反速度规则" />
+
+				<SingleString Key="Abandoned Object" Value="遗弃物" />
+
+				<SingleString Key="Tailgating" Value="尾随" />
+
+				<SingleString Key="Counting Line: Direction A" Value="过线计数：方向A" />
+
+				<SingleString Key="Counting Line: Direction B" Value="过线计数：方向B" />
+
+				<SingleString Key="Camera Tamper" Value="摄像机遮挡" />
+
+				<SingleString Key="Removed Object" Value="物品搬移" />
+
+				<SingleString Key="Auto-tracking" Value="自动跟踪" />
+
+				<SingleString Key="Color Filter" Value="颜色检测" />
+
+				<SingleString Key="Unknown" Value="未知" />
+
+				<SingleString Key="Can not create VCAAlarmLogBlock \n" Value="无法创建VCAAlarmLogBlock \n" />
+
+				<SingleString Key="ID" Value="ID" />
+
+				<SingleString Key="Rule Type" Value="规则类型" />
+
+				<SingleString Key="Rule Name" Value="规则名称" />
+
+				<SingleString Key="Zone Name" Value="检测区域名称" />
+
+				<SingleString Key="Object Type" Value="目标类型" />
+
+				<SingleString Key="Start Time" Value="开始时间" />
+
+				<SingleString Key="End Time" Value="结束时间" />
+
+				<SingleString Key="Clear Item" Value="清空项目" />
+
+				<SingleString Key="Clear All Items" Value="清空所有项目" />
+
+				<SingleString Key="ADDING %d %s\n" Value="正在添加 %d %s\n" />
+
+				<SingleString Key="FINISHING %d %s\n" Value="正在结束 %d %s\n" />
+
+				<SingleString Key="UPDATING %d %s\n" Value="正在更新 %d %s\n" />
+
+				<SingleString Key="Tamper" Value="遮挡" />
+
+				<SingleString Key="Presence" Value="存在" />
+
+				<SingleString Key="Enter" Value="进入" />
+
+				<SingleString Key="Exit" Value="离开" />
+
+				<SingleString Key="Appear" Value="出现" />
+
+				<SingleString Key="Disappear" Value="消失" />
+
+				<SingleString Key="Stopped" Value="停止" />
+
+				<SingleString Key="Direction Filter" Value="方向检测" />
+
+				<SingleString Key="Dwell" Value="徘徊" />
+
+				<SingleString Key="Speed Filter" Value="速度检测" />
+
+				<SingleString Key="Cnt Line - Dir A" Value="过线计数 - 方向 A" />
+
+				<SingleString Key="Cnt Line - Dir B" Value="过线计数 - 方向 B" />
+
+			</SingleStringList>
+
+			<ArrayedStringsList>
+
+			</ArrayedStringsList>
+
+		</LangRes>
+
+		<LangRes TargetFile="VCADataManagerBlock.dll" Version="10000" Locale="Chinese">
+
+			<SingleStringList>
+
+			</SingleStringList>
+
+			<ArrayedStringsList>
+
+				<ArrayedStrings Key="strColorName">
+
+					<ArrayedString Value="红色" />
+
+					<ArrayedString Value="绿色" />
+
+					<ArrayedString Value="蓝色" />
+
+					<ArrayedString Value="黄色" />
+
+					<ArrayedString Value="紫红色" />
+
+					<ArrayedString Value="淡蓝色" />
+
+					<ArrayedString Value="橙色" />
+
+				</ArrayedStrings>
+
+			</ArrayedStringsList>
+
+		</LangRes>
+
+		<LangRes TargetFile="VCADialogBlock.dll" Version="10001" Locale="Chinese">
+
+			<SingleStringList>
+
+				<SingleString Key="Play" Value="播放" />
+
+				<SingleString Key="Pause" Value="暂停" />
+
+				<SingleString Key="Virtual Ruler" Value="虚拟标尺" />
+
+				<SingleString Key="Draw Horizon" Value="绘制地平线" />
+
+				<SingleString Key="Transparent Grid" Value="网格透明" />
+
+				<SingleString Key="Add Mimic" Value="添加标准人物模型" />
+
+				<SingleString Key="Remove line" Value="移除检测线" />
+
+				<SingleString Key="Line" Value="检测线" />
+
+				<SingleString Key="Remove zone" Value="移除检测区域" />
+
+				<SingleString Key="Zone" Value="检测区域" />
+
+				<SingleString Key="Remove node" Value="移除节点" />
+
+				<SingleString Key="Insert node" Value="插入节点" />
+
+				<SingleString Key="Node" Value="节点" />
+
+				<SingleString Key="Rules" Value="规则" />
+
+				<SingleString Key="Reset counter" Value="重置计数器" />
+
+				<SingleString Key="Remove counter" Value="移除计数器" />
+
+				<SingleString Key="Counter" Value="计数器" />
+
+				<SingleString Key="Create zone" Value="创建检测区域" />
+
+				<SingleString Key="Create line" Value="创建检测线" />
+
+				<SingleString Key="Remove all zones and lines" Value="移除所有检测区域和检测线" />
+
+				<SingleString Key="Zone/Line" Value="检测区域/检测线" />
+
+				<SingleString Key="Add counter" Value="添加计数器" />
+
+				<SingleString Key="Reset all counters" Value="重置所有计数器" />
+
+				<SingleString Key="Remove all counters" Value="移除所有计数器" />
+
+				<SingleString Key="Display Blobs" Value="显示色块" />
+
+				<SingleString Key="Display Objects" Value="显示目标" />
+
+				<SingleString Key="Display System Messages" Value="显示系统信息" />
+
+				<SingleString Key="Display Objects in Multiple Colors" Value="使用多种颜色显示目标" />
+
+				<SingleString Key="Display Non-Alarmed Objects" Value="显示未触发报警的目标" />
+
+				<SingleString Key="Display Object Height" Value="显示目标高度" />
+
+				<SingleString Key="Display Object Speed" Value="显示目标速度" />
+
+				<SingleString Key="Display Object Area" Value="显示目标面积" />
+
+				<SingleString Key="Display Object Classification" Value="显示目标分类" />
+
+				<SingleString Key="Display Object Wait Time" Value="显示目标等待时间" />
+
+				<SingleString Key="Display Object Color Signature" Value="显示目标颜色信息" />
+
+				<SingleString Key="Display" Value="显示" />
+
+				<SingleString Key="Too many nodes, Can't Create!" Value="节点太多，无法继续创建！" />
+
+				<SingleString Key="Can't remove node, this polygon zone has only 3 nodes left" Value="无法移除该节点，此多边形只剩下3个节点" />
+
+				<SingleString Key="Can't remove node, this tripwire has only 2 nodes left" Value="无法移除该节点，此检测线只剩下2个节点" />
+
+				<SingleString Key="Please select a zone first!" Value="请首先选择一个检测区域！" />
+
+				<SingleString Key="Show Zones" Value="显示检测区域" />
+
+				<SingleString Key="Show Counters" Value="显示计数器" />
+
+				<SingleString Key="Show Blobs" Value="显示色块" />
+
+				<SingleString Key="Show Objects" Value="显示目标" />
+
+				<SingleString Key="Show System Messages" Value="显示系统信息" />
+
+				<SingleString Key="Show Objects in Multiple Colors" Value="使用多种颜色显示目标" />
+
+				<SingleString Key="Show Non-Alarmed Objects" Value="显示未触发报警的目标" />
+
+				<SingleString Key="Show Object Speed" Value="显示目标速度" />
+
+				<SingleString Key="Show Object Height" Value="显示目标高度" />
+
+				<SingleString Key="Show Object Area" Value="显示目标面积" />
+
+				<SingleString Key="Show Object Classification" Value="显示目标分类" />
+
+				<SingleString Key="Show Object Wait Times" Value="显示目标等待时间" />
+
+				<SingleString Key="Show Object Color Signatures" Value="显示目标颜色信息" />
+
+				<SingleString Key="***TAMPERING DETECTED***" Value="***检测到摄像机被遮挡***" />
+
+				<SingleString Key="Learning scene..." Value="正在学习背景..." />
+
+				<SingleString Key="VCA not licensed!" Value="缺少VCA许可证！" />
+
+				<SingleString Key="VCA disabled: manual PTZ override" Value="VCA被禁用： 进行手动控制PTZ" />
+
+				<SingleString Key="PTZ autotracking" Value="PTZ正在自动跟踪" />
+
+				<SingleString Key="Stabilizer shift [%03.3f,%03.3f]" Value="视频稳定器偏移[%03.3f,%03.3f]" />
+
+				<SingleString Key="PTZ Preset:" Value="PTZ预置位:" />
+
+				<SingleString Key="None" Value="None" />
+
+				<SingleString Key="%02d. %s" Value="%02d. %s" />
+
+				<SingleString Key="Profile: Default" Value="预置位: 默认" />
+
+				<SingleString Key="Profile: Pr%d" Value="预置位: Pr%d" />
+
+				<SingleString Key="Presence" Value="存在" />
+
+				<SingleString Key="Enter" Value="进入" />
+
+				<SingleString Key="Exit" Value="离开" />
+
+				<SingleString Key="Appear" Value="出现" />
+
+				<SingleString Key="Disappear" Value="消失" />
+
+				<SingleString Key="Stopped" Value="停止" />
+
+				<SingleString Key="Dwell" Value="徘徊" />
+
+				<SingleString Key="Direction Filter" Value="方向检测" />
+
+				<SingleString Key="Speed Filter" Value="速度检测" />
+
+				<SingleString Key="Tailgating" Value="尾随" />
+
+				<SingleString Key="Abandoned Object" Value="遗弃物" />
+
+				<SingleString Key="Removed Object" Value="物品搬移" />
+
+				<SingleString Key="Color Filter" Value="颜色检测" />
+
+				<SingleString Key="Cnt Line - Dir A" Value="过线计数 - 方向 A" />
+
+				<SingleString Key="Cnt Line - Dir B" Value="过线计数 - 方向 B" />
+
+				<SingleString Key="Previous Position" Value="上次位置" />
+
+				<SingleString Key="Max Zoom-in" Value="最大放大" />
+
+				<SingleString Key="Max Zoom-out" Value="最大缩小" />
+
+				<SingleString Key="Opposite Position" Value="相对位置" />
+
+				<SingleString Key="Left View" Value="左视图" />
+
+				<SingleString Key="Right View" Value="右视图" />
+
+			</SingleStringList>
+
+			<ArrayedStringsList>
+
+				<ArrayedStrings Key="g_helpTxt">
+
+					<ArrayedString Value="进行宽度校准。\n表示被计数的目标的宽度。\n两边较短的线表示最小和最大宽度限制。\n使用鼠标滚轮或者直接拖动标记线调整宽度。" />
+
+					<ArrayedString Value="显示方向A和方向B的对应方向。" />
+
+				</ArrayedStrings>
+
+				<ArrayedStrings Key="g_szHelpMsg">
+
+					<ArrayedString Value="* 测量或者估算摄像机距离地面的高度" />
+
+					<ArrayedString Value="* 使用鼠标滚轮调整摄像机高度" />
+
+					<ArrayedString Value="* 点击并拖动网格调整摄像机倾斜角度" />
+
+					<ArrayedString Value="* 点击并拖动标准人物模型至其它位置，与实际人物的大小进行对比" />
+
+					<ArrayedString Value="* 每个网格的大小为2x2 米" />
+
+				</ArrayedStrings>
+
+			</ArrayedStringsList>
+
+		</LangRes>
+
+		<LangRes TargetFile="VCAZoneTreeBlock.dll" Version="10000" Locale="Chinese">
+
+			<SingleStringList>
+
+				<SingleString Key="Person" Value="人" />
+
+				<SingleString Key="Vehicle" Value="车辆" />
+
+				<SingleString Key="Clutter" Value="杂物" />
+
+				<SingleString Key="Group of People" Value="人群" />
+
+				<SingleString Key="Rule Logic" Value="规则逻辑" />
+
+				<SingleString Key="OR" Value="或" />
+
+				<SingleString Key="AND" Value="与" />
+
+				<SingleString Key="Double trigger" Value="重复触发" />
+
+				<SingleString Key="Not set" Value="未设置" />
+
+				<SingleString Key="Object Class Filter" Value="目标分类检测" />
+
+				<SingleString Key="Include" Value="包含" />
+
+				<SingleString Key="Exclude" Value="不包含" />
+
+				<SingleString Key="Include/Exclude" Value="包含/不包含" />
+
+				<SingleString Key="Filter %d" Value="规则 %d" />
+
+				<SingleString Key="Zones" Value="检测区域" />
+
+				<SingleString Key="Zone %d" Value="检测区域 %d" />
+
+				<SingleString Key="Name" Value="名称" />
+
+				<SingleString Key="Color" Value="颜色" />
+
+				<SingleString Key="Detect/non-detect" Value="检测/不检测" />
+
+				<SingleString Key="IsDirectionLine" Value="IsDirectionLine" />
+
+				<SingleString Key="Type: %c, Position:" Value="类型: %c, 位置:" />
+
+				<SingleString Key="Error" Value="错误" />
+
+				<SingleString Key="All zones and counters" Value="所有检测区域和计数器" />
+
+				<SingleString Key="Counters" Value="计数器" />
+
+				<SingleString Key="Counter %d" Value="计数器 %d" />
+
+				<SingleString Key="Tracker" Value="目标跟踪引擎" />
+
+				<SingleString Key="Counting Line" Value="过线计数" />
+
+				<SingleString Key="Detect" Value="检测" />
+
+				<SingleString Key="Non-Detect" Value="不检测" />
+
+				<SingleString Key="Increment" Value="递增计数" />
+
+				<SingleString Key="Inc %d" Value="递增 %d" />
+
+				<SingleString Key="Error, invalid zone" Value="错误, 无效的检测区域" />
+
+				<SingleString Key="Error, invalid rule" Value="错误, 无效的规则" />
+
+				<SingleString Key="Decrement" Value="递减计数" />
+
+				<SingleString Key="Dec %d" Value="递减 %d" />
+
+				<SingleString Key="Occupancy" Value="即时计数" />
+
+				<SingleString Key="Occ %d" Value="即时 %d" />
+
+				<SingleString Key="Test|Auto" Value="测试|自动" />
+
+				<SingleString Key="Occupancy counter can't work together with either increment or decrement counter, please untick the occupancy counter if you want to setup other types of counters!" Value="即时计数无法与递增计数和递减计数同时使用，如果需要设置其它类型的计数，请首先取消即时计数！" />
+
+				<SingleString Key="Basic Rules" Value="基本规则" />
+
+				<SingleString Key="WARNING: values less than 10 sec can\n result in a higher number of false alarms" Value="警告： 设置低于10秒的时间\n 可能会引起较多误报" />
+
+				<SingleString Key="acceptance angle range [1,359]" Value="可设置角度为[1,359]" />
+
+				<SingleString Key="acceptance threshold range [0,100]" Value="可设置范围为 [0,100]" />
+
+				<SingleString Key="acceptance speed range [0,65535]" Value="可设置速度范围为 [0,65535]" />
+
+				<SingleString Key="WARNING: values less than 10 sec\ncan result in higher false alarms" Value="警告： 设置低于10秒的时间\n 可能会引起较多误报" />
+
+				<SingleString Key="Tree" Value="项目" />
+
+				<SingleString Key="Value" Value="值" />
+
+				<SingleString Key="Text|Auto|Bike|Sun" Value="Text|Auto|Bike|Sun" />
+
+			</SingleStringList>
+
+			<ArrayedStringsList>
+
+				<ArrayedStrings Key="gPieColourNames">
+
+					<ArrayedString Value="黑色" />
+
+					<ArrayedString Value="棕色" />
+
+					<ArrayedString Value="灰色" />
+
+					<ArrayedString Value="蓝色" />
+
+					<ArrayedString Value="绿色" />
+
+					<ArrayedString Value="青色" />
+
+					<ArrayedString Value="红色" />
+
+					<ArrayedString Value="粉色" />
+
+					<ArrayedString Value="黄色" />
+
+					<ArrayedString Value="白色" />
+
+				</ArrayedStrings>
+
+				<ArrayedStrings Key="gszWarning">
+
+					<ArrayedString Value="&lt;&gt;[],: 无法用于检测区域/规则/计数器的命名，所有无效的字符将被自动移除。" />
+
+				</ArrayedStrings>
+
+				<ArrayedStrings Key="strTreeItem">
+
+					<ArrayedString Value="存在" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="进入" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="离开" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="出现" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="消失" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="停止" />
+
+					<ArrayedString Value="时间 (秒)" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="徘徊" />
+
+					<ArrayedString Value="时长 (秒)" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="方向检测" />
+
+					<ArrayedString Value="方向" />
+
+					<ArrayedString Value="接受角度" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="速度检测" />
+
+					<ArrayedString Value="下限" />
+
+					<ArrayedString Value="上限" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="面积检测" />
+
+					<ArrayedString Value="下限" />
+
+					<ArrayedString Value="上限" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="尾随" />
+
+					<ArrayedString Value="时长 (秒)" />
+
+					<ArrayedString Value="触发" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="遗弃物" />
+
+					<ArrayedString Value="时间 (秒)" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="过线计数 - 方向 A" />
+
+					<ArrayedString Value="方向 A" />
+
+					<ArrayedString Value="阴影消除" />
+
+					<ArrayedString Value="过线计数" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="过线计数 - 方向 B" />
+
+					<ArrayedString Value="方向 B" />
+
+					<ArrayedString Value="宽度校准" />
+
+					<ArrayedString Value="过线计数" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="物品搬移" />
+
+					<ArrayedString Value="时间 (秒)" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="颜色检测" />
+
+					<ArrayedString Value="颜色" />
+
+					<ArrayedString Value="比例" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="烟雾检测" />
+
+					<ArrayedString Value="时间 (秒)" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="火焰检测" />
+
+					<ArrayedString Value="时间 (秒)" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本存在" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本消失" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本进入" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本离开" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本出现" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本消失" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本静止" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本方向" />
+
+					<ArrayedString Value="方向" />
+
+					<ArrayedString Value="接受角度" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本计时" />
+
+					<ArrayedString Value="时间 (秒)" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本速度" />
+
+					<ArrayedString Value="下限" />
+
+					<ArrayedString Value="上限" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本面积" />
+
+					<ArrayedString Value="下限" />
+
+					<ArrayedString Value="上限" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="基本颜色检测" />
+
+					<ArrayedString Value="颜色" />
+
+					<ArrayedString Value="比例" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="其它" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+					<ArrayedString Value="" />
+
+				</ArrayedStrings>
+
+			</ArrayedStringsList>
+
+		</LangRes>
+
+	</Module>
+
+</Root>
